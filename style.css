@@ -1,0 +1,118 @@
+body {
+  background: linear-gradient(to bottom, #95afc0 0%, #c7ecee 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #22a6b3;
+}
+
+h1 {
+    text-align: center;
+}
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .rilo-div {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: green;
+    border-radius: 50%;
+  }
+
+
+  #div-rilo {
+    top: 38%;
+    left: 63%;
+    height: 20px;
+    width: 20px;
+    opacity: 0%;
+  }
+ 
+  #div-rilo1 {
+    top: 45%;
+    left: 3%;
+    height: 20px;
+    width: 20px;
+    opacity: 0%;
+  }
+
+  #div-rilo2 {
+    top: 60%;
+    left: 18%;
+    height: 20px;
+    width: 20px;
+    opacity: 0%;
+  }
+  
+  #div-rilo3 {
+    top: 33%;
+    left: 27%;
+    height: 20px;
+    width: 20px;
+    opacity: 0%;
+  }
+
+  #div-rilo4 {
+    top: 95%;
+    left: 77%;
+    height: 20px;
+    width: 20px;
+    opacity: 0%;
+  }
+  
+  #div-rilo5 {
+    top: 30%;
+    left: 93.5%;
+    height: 20px;
+    width: 20px;
+    opacity: 0%;
+  }
+
+/*Counter section*/
+
+.count-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  
+}
+span {
+  color: #be2edd;
+  font-size: 30px;
+}
+
+.puppy-counter {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+}
+.rilo-counter {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+}
+
+
+.puppy-rilo-img {
+  width: 250px;
+  height: 250px;
+  
+}
+.rilo-img {
+  width: 250px;
+  height: 250px;
+  
+}
